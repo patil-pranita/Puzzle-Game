@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sliding Puzzle Game</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="header-content">
+      <nav>
+        <ul>
+          <li><p>Pranita Patil</p></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="main">
+    <div class="container">
+      <h1>Sliding Puzzle Game</h1>
+      
+      <!-- Landing page section with start button -->
+      <div class="landing-page">
+        <button id="startButton">Start Game</button>
+      </div>
+
+      <!-- Puzzle container that will appear after starting the game -->
+      <div class="puzzle-container" style="display: none;">
+        <div class="puzzle"></div>
+        <div class="main-image">
+          <p>Original Image</p>
+          <img src="./images/main.jpg" alt="main image">
+        </div>
+        <div class="moves">Moves: 0</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Win Popup (hidden initially) -->
+  <div id="winPopup" class="popup" style="display: none;">
+    <div class="popup-content">
+      <h2>Congratulations!</h2>
+      <p>You solved the puzzle in <span id="moveCountDisplay"></span> moves!</p>
+      <button id="closePopupButton">Close</button>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Sliding Puzzle Game. All Rights Reserved.</p>
+      <p>Developed by Pranita Patil</p>
+    </div>
+  </footer>
+
+  <!-- Link to external JavaScript -->
+  <script src="./script.js"></script>
+</body>
+</html>
