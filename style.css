@@ -195,7 +195,7 @@ header nav ul li a:hover {
     .puzzle {
         width: 25em;
         height: 25em;
-        grid-auto-rows: 8em;
-        gap: 10px;
+        grid-auto-rows: 7.5em;
+        gap: 6px;
     }
 }
